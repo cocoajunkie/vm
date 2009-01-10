@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1458C5450F01E463009F2C25 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 1458C5420F01E463009F2C25 /* Log.h */; };
+		1458C5460F01E463009F2C25 /* VMService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1458C5430F01E463009F2C25 /* VMService.cpp */; };
+		1458C5470F01E463009F2C25 /* VMService.h in Headers */ = {isa = PBXBuildFile; fileRef = 1458C5440F01E463009F2C25 /* VMService.h */; };
+		1458C5740F01E9F1009F2C25 /* VMUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1458C5720F01E9F1009F2C25 /* VMUserClient.cpp */; };
+		1458C5750F01E9F1009F2C25 /* VMUserClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1458C5730F01E9F1009F2C25 /* VMUserClient.h */; };
+		1458C5880F0275E4009F2C25 /* VMAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1458C57C0F0275A5009F2C25 /* VMAPI.cpp */; };
+		1458C5890F0275E4009F2C25 /* vmdemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1458C57E0F0275A5009F2C25 /* vmdemo.cpp */; };
+		1458C58C0F027606009F2C25 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1458C58B0F027606009F2C25 /* CoreFoundation.framework */; };
+		1458C5C50F02763E009F2C25 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1458C5C40F02763E009F2C25 /* IOKit.framework */; };
+		1458C65D0F028B47009F2C25 /* VM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1458C65B0F028B47009F2C25 /* VM.cpp */; };
+		1458C65E0F028B47009F2C25 /* VM.h in Headers */ = {isa = PBXBuildFile; fileRef = 1458C65C0F028B47009F2C25 /* VM.h */; };
+		1494CAFC0F02A2BA00008B97 /* CPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1494CAFA0F02A2BA00008B97 /* CPU.cpp */; };
+		1494CAFD0F02A2BA00008B97 /* CPU.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CAFB0F02A2BA00008B97 /* CPU.h */; };
+		1494CB400F069ABF00008B97 /* Registers.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CB3E0F069ABF00008B97 /* Registers.h */; };
+		1494CB410F069ABF00008B97 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CB3F0F069ABF00008B97 /* Types.h */; };
+		1494CB440F069AD900008B97 /* VMX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1494CB420F069AD900008B97 /* VMX.cpp */; };
+		1494CB450F069AD900008B97 /* VMX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CB430F069AD900008B97 /* VMX.h */; };
+		1494CB850F06BE4100008B97 /* Host.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CB830F06BE4100008B97 /* Host.h */; };
+		1494CB860F06BE4100008B97 /* Host.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1494CB840F06BE4100008B97 /* Host.cpp */; };
+		1494CB880F06BEB600008B97 /* Assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = 1494CB870F06BEB600008B97 /* Assembly.h */; };
+		149687DB0F0BD46300D55E2D /* KernelExports.h in Headers */ = {isa = PBXBuildFile; fileRef = 149687DA0F0BD46300D55E2D /* KernelExports.h */; };
+		32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1458C64D0F02765B009F2C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D94FC30562CBF700B6AF17;
+			remoteInfo = vm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = kernel/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1458C5420F01E463009F2C25 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log.h; path = kernel/Log.h; sourceTree = "<group>"; };
+		1458C5430F01E463009F2C25 /* VMService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMService.cpp; path = kernel/VMService.cpp; sourceTree = "<group>"; };
+		1458C5440F01E463009F2C25 /* VMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMService.h; path = kernel/VMService.h; sourceTree = "<group>"; };
+		1458C5720F01E9F1009F2C25 /* VMUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMUserClient.cpp; path = kernel/VMUserClient.cpp; sourceTree = "<group>"; };
+		1458C5730F01E9F1009F2C25 /* VMUserClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMUserClient.h; path = kernel/VMUserClient.h; sourceTree = "<group>"; };
+		1458C57C0F0275A5009F2C25 /* VMAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMAPI.cpp; path = user/VMAPI.cpp; sourceTree = "<group>"; };
+		1458C57D0F0275A5009F2C25 /* VMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMAPI.h; path = user/VMAPI.h; sourceTree = "<group>"; };
+		1458C57E0F0275A5009F2C25 /* vmdemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vmdemo.cpp; path = user/vmdemo.cpp; sourceTree = "<group>"; };
+		1458C5840F0275CA009F2C25 /* vmdemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vmdemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		1458C58B0F027606009F2C25 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		1458C5C40F02763E009F2C25 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		1458C65B0F028B47009F2C25 /* VM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VM.cpp; path = kernel/VM.cpp; sourceTree = "<group>"; };
+		1458C65C0F028B47009F2C25 /* VM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VM.h; path = kernel/VM.h; sourceTree = "<group>"; };
+		1494CAFA0F02A2BA00008B97 /* CPU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CPU.cpp; path = kernel/CPU.cpp; sourceTree = "<group>"; };
+		1494CAFB0F02A2BA00008B97 /* CPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPU.h; path = kernel/CPU.h; sourceTree = "<group>"; };
+		1494CB3E0F069ABF00008B97 /* Registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Registers.h; path = shared/Registers.h; sourceTree = "<group>"; };
+		1494CB3F0F069ABF00008B97 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Types.h; path = shared/Types.h; sourceTree = "<group>"; };
+		1494CB420F069AD900008B97 /* VMX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VMX.cpp; path = kernel/VMX.cpp; sourceTree = "<group>"; };
+		1494CB430F069AD900008B97 /* VMX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMX.h; path = kernel/VMX.h; sourceTree = "<group>"; };
+		1494CB830F06BE4100008B97 /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = kernel/Host.h; sourceTree = "<group>"; };
+		1494CB840F06BE4100008B97 /* Host.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Host.cpp; path = kernel/Host.cpp; sourceTree = "<group>"; };
+		1494CB870F06BEB600008B97 /* Assembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Assembly.h; path = shared/Assembly.h; sourceTree = "<group>"; };
+		149687DA0F0BD46300D55E2D /* KernelExports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KernelExports.h; path = kernel/KernelExports.h; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = kernel/Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* vm.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vm.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1458C5820F0275CA009F2C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1458C58C0F027606009F2C25 /* CoreFoundation.framework in Frameworks */,
+				1458C5C50F02763E009F2C25 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* vm */ = {
+			isa = PBXGroup;
+			children = (
+				1494CB3D0F069AA400008B97 /* shared */,
+				1458C5250F01DF7C009F2C25 /* user */,
+				247142CAFF3F8F9811CA285C /* kernel */,
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+				1458C58B0F027606009F2C25 /* CoreFoundation.framework */,
+				1458C5C40F02763E009F2C25 /* IOKit.framework */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = vm;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1458C5250F01DF7C009F2C25 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				1458C57C0F0275A5009F2C25 /* VMAPI.cpp */,
+				1458C57D0F0275A5009F2C25 /* VMAPI.h */,
+				1458C57E0F0275A5009F2C25 /* vmdemo.cpp */,
+			);
+			name = user;
+			sourceTree = "<group>";
+		};
+		1494CB3D0F069AA400008B97 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				1494CB870F06BEB600008B97 /* Assembly.h */,
+				1494CB3E0F069ABF00008B97 /* Registers.h */,
+				1494CB3F0F069ABF00008B97 /* Types.h */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* vm.kext */,
+				1458C5840F0275CA009F2C25 /* vmdemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				149687DA0F0BD46300D55E2D /* KernelExports.h */,
+				1494CB830F06BE4100008B97 /* Host.h */,
+				1494CB840F06BE4100008B97 /* Host.cpp */,
+				1494CB420F069AD900008B97 /* VMX.cpp */,
+				1494CB430F069AD900008B97 /* VMX.h */,
+				1494CAFA0F02A2BA00008B97 /* CPU.cpp */,
+				1494CAFB0F02A2BA00008B97 /* CPU.h */,
+				1458C65B0F028B47009F2C25 /* VM.cpp */,
+				1458C65C0F028B47009F2C25 /* VM.h */,
+				1458C5720F01E9F1009F2C25 /* VMUserClient.cpp */,
+				1458C5730F01E9F1009F2C25 /* VMUserClient.h */,
+				1458C5420F01E463009F2C25 /* Log.h */,
+				1458C5430F01E463009F2C25 /* VMService.cpp */,
+				1458C5440F01E463009F2C25 /* VMService.h */,
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = kernel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1458C5450F01E463009F2C25 /* Log.h in Headers */,
+				1458C5470F01E463009F2C25 /* VMService.h in Headers */,
+				1458C5750F01E9F1009F2C25 /* VMUserClient.h in Headers */,
+				1458C65E0F028B47009F2C25 /* VM.h in Headers */,
+				1494CAFD0F02A2BA00008B97 /* CPU.h in Headers */,
+				1494CB400F069ABF00008B97 /* Registers.h in Headers */,
+				1494CB410F069ABF00008B97 /* Types.h in Headers */,
+				1494CB450F069AD900008B97 /* VMX.h in Headers */,
+				1494CB850F06BE4100008B97 /* Host.h in Headers */,
+				1494CB880F06BEB600008B97 /* Assembly.h in Headers */,
+				149687DB0F0BD46300D55E2D /* KernelExports.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1458C5830F0275CA009F2C25 /* vmdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1458C58A0F027602009F2C25 /* Build configuration list for PBXNativeTarget "vmdemo" */;
+			buildPhases = (
+				1458C5810F0275CA009F2C25 /* Sources */,
+				1458C5820F0275CA009F2C25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1458C64E0F02765B009F2C25 /* PBXTargetDependency */,
+			);
+			name = vmdemo;
+			productName = vmdemo;
+			productReference = 1458C5840F0275CA009F2C25 /* vmdemo */;
+			productType = "com.apple.product-type.tool";
+		};
+		32D94FC30562CBF700B6AF17 /* vm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "vm" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vm;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = vm;
+			productReference = 32D94FD00562CBF700B6AF17 /* vm.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "vm" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* vm */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* vm */,
+				1458C5830F0275CA009F2C25 /* vmdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1458C5810F0275CA009F2C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1458C5880F0275E4009F2C25 /* VMAPI.cpp in Sources */,
+				1458C5890F0275E4009F2C25 /* vmdemo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1458C5460F01E463009F2C25 /* VMService.cpp in Sources */,
+				1458C5740F01E9F1009F2C25 /* VMUserClient.cpp in Sources */,
+				1458C65D0F028B47009F2C25 /* VM.cpp in Sources */,
+				1494CAFC0F02A2BA00008B97 /* CPU.cpp in Sources */,
+				1494CB440F069AD900008B97 /* VMX.cpp in Sources */,
+				1494CB860F06BE4100008B97 /* Host.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1458C64E0F02765B009F2C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D94FC30562CBF700B6AF17 /* vm */;
+			targetProxy = 1458C64D0F02765B009F2C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1458C5860F0275CC009F2C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = vmdemo;
+			};
+			name = Debug;
+		};
+		1458C5870F0275CC009F2C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = vmdemo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = kernel/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.vm;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = vm;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = kernel/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.vm;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = vm;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = shared;
+				MODULE_NAME = com.cocoajunkie.kext.vm;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = shared;
+				MODULE_NAME = com.cocoajunkie.kext.vm;
+				MODULE_VERSION = 1.0.0d1;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1458C58A0F027602009F2C25 /* Build configuration list for PBXNativeTarget "vmdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1458C5860F0275CC009F2C25 /* Debug */,
+				1458C5870F0275CC009F2C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "vm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "vm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

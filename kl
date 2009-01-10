@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# kl - load kernel extension
+# $KEXT_NAME
+#
+# Created by Paul Litvak on 6/2/08.
+# Copyright 2008 __MyCompanyName__. All rights reserved.
+
+KEXT_NAME=vm
+
+rm -rf /tmp/$KEXT_NAME.kext
+
+cp -R build/Debug/$KEXT_NAME.kext /tmp
+
+kextload -v /tmp/$KEXT_NAME.kext

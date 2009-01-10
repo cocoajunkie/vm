@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# ku - unload kernel extension
+# vmm
+#
+# Created by Paul Litvak on 6/2/08.
+# Copyright 2008 __MyCompanyName__. All rights reserved.
+
+KEXT_BUNDLE_IDENTIFIER=com.cocoajunkie.kext.vm
+
+kextunload -b $KEXT_BUNDLE_IDENTIFIER
